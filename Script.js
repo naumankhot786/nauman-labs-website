@@ -1,3 +1,27 @@
+emailjs.init({
+  publicKey: "Zd-S6X6Hje-jPBQQd"
+});
+
+const contactForm = document.getElementById("contactForm");
+
+contactForm.addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  emailjs.sendForm(
+    "service_8npbzxl",
+    "template_1tr0eio",
+    this
+  )
+  .then(() => {
+    alert("✅ Message sent successfully!");
+    contactForm.reset();
+  })
+  .catch((error) => {
+    console.error(error);
+    alert("❌ Failed to send message.");
+  });
+});
+
 /* ======================================
    Nauman Labs V2 - Part 1
 ====================================== */
