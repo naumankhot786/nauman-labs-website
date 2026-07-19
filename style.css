@@ -1257,3 +1257,66 @@ visibility:hidden;
 transition:.3s;
 
                             }
+
+/* Success Toast */
+
+.toast.success{
+
+border-left:5px solid #22c55e;
+
+}
+
+/* Mobile Menu Animation */
+
+#menu{
+
+transition:.35s;
+
+}
+
+#menu.show{
+
+animation:popup .3s ease;
+
+   }
+
+   /* Page Animation */
+
+body{
+
+opacity:0;
+
+transition:opacity .5s ease;
+
+}
+
+/* Better Selection */
+
+::selection{
+
+background:#06b6d4;
+
+color:#fff;
+
+}
+
+/* Focus */
+
+input:focus,
+textarea:focus{
+
+outline:2px solid #06b6d4;
+
+}
+
+/* Smooth Hover */
+
+.service-card,
+.portfolio-card,
+.price-card,
+.tech-card,
+.about-card{
+
+transition:.35s ease;
+
+}
