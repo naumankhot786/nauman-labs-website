@@ -1183,3 +1183,77 @@ transform:scale(1);
 }
 
    }
+
+/* Active Menu */
+
+nav a.active{
+
+color:#06b6d4;
+
+font-weight:bold;
+
+}
+
+/* Reveal */
+
+.service-card,
+.tech-card,
+.portfolio-card,
+.price-card,
+.testimonial-card,
+.about-card,
+.why-card{
+
+opacity:0;
+
+transform:translateY(40px);
+
+transition:.7s;
+
+}
+
+.visible{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+/* Toast */
+
+.toast{
+
+position:fixed;
+
+top:90px;
+
+right:20px;
+
+background:#111827;
+
+padding:15px 25px;
+
+border-left:5px solid #06b6d4;
+
+border-radius:12px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.35);
+
+z-index:9999;
+
+animation:popup .4s;
+
+}
+
+/* Back To Top */
+
+.back-top{
+
+opacity:0;
+
+visibility:hidden;
+
+transition:.3s;
+
+                            }
