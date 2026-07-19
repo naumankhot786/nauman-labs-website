@@ -8,7 +8,7 @@ contactForm.addEventListener("submit", function(e) {
   e.preventDefault();
 
   emailjs.sendForm(
-    "service_8npbzxl",
+    "service_0igt6nk",
     "template_1tr0eio",
     this
   )
