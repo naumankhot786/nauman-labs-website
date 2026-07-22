@@ -30,4 +30,4 @@ Disallow:
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
-Sitemap: https://nauman-labs-website.naumankhot786.workers.dev/sitemap.xml
+Sitemap: https://nauman-labs-website.naumankhot786.workers.dev
